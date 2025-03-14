@@ -1,66 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/" />
-    <title>Document</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <div class="container">
-      <div class="welkam">
-        <h1>Selamat Datang Kembali</h1>
-        <p>Silakan masuk untuk melanjutkan</p>
-      </div>
-      <div class="datadiri">
-        <h1>Selamat Datang Kembali</h1>
-        <p>Silakan masuk untuk melanjutkan</p>
-
-        <label for="email">Alamat Email</label>
-        <input type="email" id="email" placeholder="Masukkan email Anda" />
-
-        <label for="password">Kata Sandi</label>
-        <input
-          type="password"
-          id="password"
-          placeholder="Masukkan kata sandi Anda"
-        />
-      </div>
-      <h1>Selamat Datang Kembali</h1>
-      <p>Silakan masuk untuk melanjutkan</p>
+      <h1 class="title">Selamat Datang Kembali</h1>
+      <p class="subtitle">Silakan masuk untuk melanjutkan</p>
 
       <label for="email">Alamat Email</label>
-      <input type="email" id="email" placeholder="Masukkan email Anda" />
+      <input type="email" placeholder="Masukkan email Anda" />
 
       <label for="password">Kata Sandi</label>
-      <input
-        type="password"
-        id="password"
-        placeholder="Masukkan kata sandi Anda"
-      />
+      <input type="password" placeholder="Masukkan kata sandi Anda" />
+      <p class="hint">
+        Harus terdiri dari huruf besar, huruf kecil, angka, dan simbol
+      </p>
 
-      <div class="datadiri"></div>
-
-      <small
-        >Harus terdiri dari huruf besar, huruf kecil, angka, dan simbol</small
-      >
-
-      <div class="remember-forgot">
-        <input type="checkbox" id="remember" />
-        <label for="remember">Ingat saya</label>
-        <a href="#">Lupa Kata Sandi?</a>
+      <div class="options">
+        <label class="checkbox-container">
+          <input type="checkbox" /> <span>Ingat saya</span>
+        </label>
+        <a href="lupasandi.html" class="forgot-password">Lupa Kata Sandi?</a>
       </div>
 
-      <button class="login-btn">Masuk</button>
+      <button class="btn-login">Masuk</button>
 
-      <p>Atau masuk dengan:</p>
-      <div class="social-login">
-        <button class="google">Google</button>
-        <button class="apple">Apple</button>
-        <button class="twitter">Twitter</button>
+      <p class="or">Atau masuk dengan:</p>
+
+      <div class="social-buttons">
+        <button class="btn-social">
+          <img src="assest/img/google.svg" alt="Google" /> Google
+        </button>
+        <button class="btn-social">
+          <img src="assest/img/apple.svg" alt="Apple" /> Apple
+        </button>
+        <button class="btn-social">
+          <img src="assest/img/twitter.svg" alt="Twitter" /> Twitter
+        </button>
       </div>
 
-      <p>Belum punya akun? <a href="#">Daftar</a></p>
+      <p class="register">Belum punya akun? <a href="#">Daftar</a></p>
     </div>
   </body>
 </html>
