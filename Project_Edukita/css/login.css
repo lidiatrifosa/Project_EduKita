@@ -1,0 +1,114 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 14px;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.hint {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 16px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.forgot-password {
+  color: #060606;
+  text-decoration: none;
+}
+
+.btn-login {
+  width: 100%;
+  background-color: #ff7426;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin: 16px 0;
+  cursor: pointer;
+}
+
+.or {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  border: 2px solid #ff7426;
+  border-radius: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.register {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.register a {
+  color: #ff7426;
+  text-decoration: none;
+}
