@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="form-title">BOOK AN<br>Appointment</h1>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" value="David John" readonly>
+                        </div>
+                        <div class="col">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="phone" value="(123) 456 - 789" readonly>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="medicalRecord" class="form-label">Medical Record Number</label>
+                            <input type="text" class="form-control" id="medicalRecord" value="123456-7890-0987" readonly>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="date" class="form-label">Preferred Date</label>
+                            <input type="date" class="form-control" id="date">
+                        </div>
+                        <div class="col">
+                            <label for="time" class="form-label">Preferred Time</label>
+                            <input type="time" class="form-control" id="time">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Reason for Visit</label><br>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="reason" id="routineCheckup">
+                            <label class="form-check-label" for="routineCheckup">Routine Checkup</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="reason" id="newPatient">
+                            <label class="form-check-label" for="newPatient">New Patient Visit</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="reason" id="specificConcern" checked>
+                            <label class="form-check-label" for="specificConcern">Specific Concern</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Department</label><br>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="department" id="pediatric">
+                            <label class="form-check-label" for="pediatric">Pediatric</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="department" id="obgyn">
+                            <label class="form-check-label" for="obgyn">Obstetrics and Gynecology</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="department" id="cardiology">
+                            <label class="form-check-label" for="cardiology">Cardiology</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="department" id="neurology" checked>
+                            <label class="form-check-label" for="neurology">Neurology</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit <span>&rarr;</span></button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/300x400" alt="Doctor" class="doctor-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
