@@ -1,0 +1,159 @@
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 60px 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 520px;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: "Nunito", sans-serif;
+  color: #262626;
+}
+
+.subtitle {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: "Roboto", sans-serif;
+  color: var(--Default-90, #262626);
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #000000;
+}
+
+.input-field input {
+  margin-bottom: 16px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #000;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.terms {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: flex-start; /* Align items to the left */
+  gap: 8px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  white-space: nowrap;
+  label {
+    text-align: center;
+  }
+}
+
+.terms-content {
+  display: flex;
+  align-items: center; /* Ensure checkbox and text are vertically aligned */
+  gap: 8px; /* Add spacing between checkbox and text */
+  justify-content: center;
+  width: 225px;
+  height: 17px;
+}
+
+.btn-signup {
+  width: 100%;
+  max-width: 520px;
+  padding: 10px;
+  background-color: #ff7426;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 16px auto;
+  text-decoration: none;
+}
+
+.or {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.social-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  border: 2px solid #ff7426;
+  border-radius: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.login {
+  text-align: center;
+}
+
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.center-text {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}

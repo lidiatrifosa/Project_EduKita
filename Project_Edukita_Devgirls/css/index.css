@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: Nunito, sans-serif;
+}
+body {
+  font-family: "nunito", system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background: #fef9f3;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background: #fef9f3;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar img {
+  height: 43px;
+  width: 151px;
+  margin-left: 120px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.signin-btn {
+  background: #4d2c5e;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 80px;
+  background: #fef9f3;
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 0;
+}
+
+.hero-text {
+  width: 50%;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 69px;
+  font-weight: bold;
+  color: #1e1e1e;
+  line-height: 1.2;
+  width: 580px;
+  margin-left: 120px;
+}
+
+.highlight {
+  color: #ff7426;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #555;
+  margin: 20px 0;
+  line-height: 1.6;
+  max-width: 550px;
+  margin-left: 120px;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.hero-image img {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+}
+
+.btn-utama {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #4d2c5e;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.fitur {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px 20px;
+  background: #4d2c5e;
+  color: white;
+  border-radius: 14px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.fitur-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.fitur-item img {
+  width: 50px;
+  height: auto;
+}
+
+.fitur-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.fitur-item p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px 50px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-image {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .hero-image img {
+    width: 300px;
+  }
+
+  .fitur {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .fitur-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .fitur-item img {
+    width: 40px;
+  }
+
+  .fitur-item h3 {
+    font-size: 16px;
+  }
+
+  .fitur-item p {
+    font-size: 13px;
+  }
+}
+
+.konsultasi {
+  background: #fdf8ee;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.konsultasi-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  gap: 30px;
+  flex-direction: row;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.konsultasi-img {
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+}
+
+.konsultasi-text {
+  width: 50%;
+  text-align: left;
+}
+
+.konsultasi-text h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #050c26;
+  margin-bottom: 20px;
+  font-family: Nunito, sans-serif;
+}
+
+.konsultasi-text p {
+  font-size: 20px;
+  color: #6d6d6d;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.btn-konsultasi {
+  display: inline-block;
+  background: #4d2c5e;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.btn-konsultasi::before {
+  content: "💗";
+  color: #fff;
+  font-family: Nunito;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.donasi {
+  background-color: #4d2c5e;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  position: relative;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.donasi-container h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.donasi-container p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.donasi-button {
+  display: inline-block;
+  background-color: #ff7f3f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.donasi-button:hover {
+  background-color: #e96b2b;
+}
+
+.donasi::before,
+.donasi::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: url("../assest/img/panah-orange.png") no-repeat;
+  background-size: contain;
+}
+
+.donasi::before {
+  top: 10px;
+  left: 10px;
+}
+
+.donasi::after {
+  bottom: 10px;
+  right: 10px;
+  background: url("../assest/img/dekorasi.png") no-repeat;
+  background-size: contain;
+}
+
+footer {
+  background-color: #fdf8ee;
+  padding: 40px 0;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 40px;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 12px;
+  margin: 4px 0;
+  max-width: 200px;
+  line-height: 1.5;
+  text-align: left;
+  color: #606060;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 14px;
+  max-width: 250px;
+  line-height: 1.5;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  color: #666;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4d2c5e;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  background-color: #3b2147;
+}

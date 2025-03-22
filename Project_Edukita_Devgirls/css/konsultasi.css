@@ -1,0 +1,48 @@
+.placeholder-img {
+  background-color: #e0e0e0;
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+.placeholder-img::before,
+.placeholder-img::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  height: 2px;
+  top: 50%;
+  left: 25%;
+}
+.placeholder-img::before {
+  transform: rotate(45deg);
+}
+.placeholder-img::after {
+  transform: rotate(-45deg);
+}
+.content-section h2 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.content-section h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.content-section p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.btn-custom {
+  background-color: #b35f00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.btn-custom:hover {
+  background-color: #db6c11;
+}
