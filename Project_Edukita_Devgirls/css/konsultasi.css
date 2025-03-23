@@ -1,48 +1,119 @@
-.placeholder-img {
-  background-color: #e0e0e0;
-  width: 100%;
-  padding-top: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.consultation-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.consultation-card {
   position: relative;
+  height: 350px;
+  width: 48%;
+  min-width: 300px;
+  text-align: left;
 }
-.placeholder-img::before,
-.placeholder-img::after {
-  content: "";
-  position: absolute;
-  background-color: white;
-  width: 50%;
-  height: 2px;
-  top: 50%;
-  left: 25%;
+
+.purple-box {
+  width: 100%;
+  height: 175px;
+  background-color: #8a2be2;
+  border-radius: 5px 5px 0 0;
 }
-.placeholder-img::before {
-  transform: rotate(45deg);
+
+.consultation-card .card-body {
+  padding-top: 20px;
 }
-.placeholder-img::after {
-  transform: rotate(-45deg);
-}
-.content-section h2 {
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.content-section h3 {
-  font-size: 24px;
-  font-weight: 700;
+
+.consultation-card .card-title {
+  font-size: 1.8rem;
+  color: #333;
   margin-bottom: 15px;
 }
-.content-section p {
-  font-size: 14px;
-  line-height: 1.5;
+
+.consultation-card .card-text {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
-.btn-custom {
-  background-color: #b35f00;
-  color: white;
-  padding: 10px 20px;
+
+.consultation-button {
+  background: none;
   border: none;
-  border-radius: 5px;
-  font-size: 16px;
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
-.btn-custom:hover {
-  background-color: #db6c11;
+
+/* Hover effect */
+.consultation-button:hover {
+  background: none;
+  color: #0056b3;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.gambar {
+  background-color: #8a2be2;
+  border-radius: 25px;
+  width: 250px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gambar .card-img-top {
+  width: 70%;
+  height: auto;
+  display: block;
+  border-radius: 0;
+}
+
+.gambar-lock {
+  background-color: #f8f9d4;
+  border-radius: 25px;
+  width: 250px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gambar-lock .card-img-top {
+  width: 20%;
+  height: auto;
+  display: block;
+  border-radius: 0;
 }
