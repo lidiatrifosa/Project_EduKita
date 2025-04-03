@@ -1,9 +1,10 @@
-# Project_EduKita 
-EduKita adalah platform edukasi digital yang bertujuan untuk memberikan pengalaman belajar yang inklusif dan interaktif bagi pengguna. Proyek ini dikembangkan oleh tim kami dalam rangka meningkatkan aksesibilitas pendidikan berbasis teknologi.
+# EduKita - Platform Edukasi Inklusif
 
-📌 Fitur Utama
-✅ Dashboard Interaktif – Menyediakan pengalaman belajar yang nyaman dan terstruktur.
-✅ Kelas Online – Berisi berbagai materi edukatif yang dapat diakses kapan saja.
-✅ Quiz & Evaluasi – Membantu pengguna mengukur pemahaman mereka terhadap materi yang telah dipelajari.
-✅ Sistem Gamifikasi – Memberikan pengalaman belajar yang lebih menarik melalui sistem poin dan penghargaan.
-✅ Aksesibilitas – Didesain untuk ramah pengguna dengan berbagai kebutuhan.
+EduKita adalah platform edukasi inklusif yang dirancang untuk mendukung pembelajaran anak berkebutuhan khusus. Proyek ini menyediakan modul interaktif, layanan konsultasi ahli, dan fitur donasi untuk mendukung akses pendidikan yang lebih baik.
+
+📌## Fitur Utama
+
+- ✅**Modul Interaktif**: Materi pembelajaran yang dirancang khusus untuk anak berkebutuhan khusus.
+- ✅**Konsultasi Ahli**: Layanan konsultasi dengan profesional berpengalaman dalam pendidikan inklusif.
+- ✅**Donasi**: Fitur untuk mendukung pendidikan inklusif melalui kontribusi nyata.
+
